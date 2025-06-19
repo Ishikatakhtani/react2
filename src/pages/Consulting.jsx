@@ -16,7 +16,8 @@ const Consulting=()=>{
      data-aos-duration="2000" /></div>
     <div id="h7" data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000"><p id="h3" >Consulting services</p>
+     data-aos-duration="2000"><p id="h3" 
+    >Consulting services</p>
     <p id="h8" >
 Yashika Consulting Services is dedicated to building long-term partnerships with our clients. We specialize in providing consulting support for managing RFPs, RFIs, and RFQs efficiently. We also offer expert guidance in conducting workshops and creating product and technology roadmaps tailored to your unique requirements. Our goal is to establish enduring relationships with our clients by delivering exceptional consultancy services.</p>
     </div>

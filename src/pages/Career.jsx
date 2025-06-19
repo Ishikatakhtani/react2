@@ -17,7 +17,7 @@ We are always searching for talented and dedicated individuals for both permanen
       <h2>Let’s Work Together</h2>
       <p>Get in touch so we can start working together. Please fill below details. Our team will reach out to you.</p>
 
-      <form  method="post" class="form2">
+      <form  method="post" class="contact-form">
         <div class="grid-left">
           <label>
             First Name *<br />

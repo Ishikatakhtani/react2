@@ -87,7 +87,7 @@
     
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     flex-direction: column;
 }
 #h8{
@@ -95,7 +95,12 @@
    padding-right: 10%;
 }
 
-
+#h3{
+  display: flex;
+  text-align: left;
+  padding-left: 10%;
+  font-size: 22px;
+}
 
 #Home4{
  background-color: #111;
@@ -192,7 +197,7 @@ width: 750px;
   
 }
 
-#cr2 {
+.cr2 {
   padding: 60px 20px;
   max-width: 1000px;
   margin: 0 auto;
@@ -366,7 +371,7 @@ textarea {
 }
 
 #h9{
-    background-color: beige;
+    background-color:#F7E8D3;
     color: black;
     
     display: flex;
@@ -458,8 +463,8 @@ textarea {
   }
 
   #h7 {
-    padding: 20px 10px;
-    text-align: center;
+    /* padding: 20px 10px;
+    text-align: center; */
   }
 
   #h8 {

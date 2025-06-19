@@ -2,7 +2,15 @@ import BacktoTop from "./BacktoTop";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+import { Link } from 'react-router-dom';
+
 const Training = () => {
+   const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate("/contact"); // or whatever your route is
+  };
   useEffect(() => {
     AOS.init({ duration: 2000, once: true });
     AOS.refresh(); // Reinitializes animations on mount
@@ -53,7 +61,9 @@ const Training = () => {
             training sessions.
           </p>
           <br />
-          <button id="b5">Get In Touch</button>
+         <Link to="/ContactUs">
+      <button id="b5">Get In Touch</button>
+    </Link>
         </div>
       </div>
 
@@ -86,7 +96,9 @@ const Training = () => {
             help you stay ahead of the curve and achieve your goals.
           </p>
           <br />
-          <button id="b5">Get In Touch</button>
+          <Link to="/ContactUs">
+      <button id="b5">Get In Touch</button>
+    </Link>
         </div>
 
         <div
