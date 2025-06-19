@@ -2,15 +2,19 @@ import  { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import BacktoTop from './BacktoTop';
+
 const Home=()=>{
     useEffect(() => {
       AOS.init({ duration: 1000 }); 
     }, []);
+     useEffect(() => {
+    document.title = "Home | Yashwi Counsulting";
+  }, []);
     return(
         <>
        <div id="Home">
             <div id="i1">
-  <div id="i2"><p class="cursor typewriter-animation">Consulting Services</p></div> 
+  <div id="i2"><p class="cursor typewriter-animation">Yashvi Consulting Services</p></div> 
   </div>
 
   <div id="Home1">

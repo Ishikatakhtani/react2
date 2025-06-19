@@ -2,10 +2,14 @@ import  { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import BacktoTop from './BacktoTop';
+
 const Consulting=()=>{
      useEffect(() => {
       AOS.init({ duration: 1000 }); 
     }, []);
+     useEffect(() => {
+    document.title = "Consulting | Yashwi Counsulting";
+  }, []);
     return(
        
         <>

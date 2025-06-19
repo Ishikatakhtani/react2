@@ -1,6 +1,9 @@
 import BacktoTop from "./BacktoTop";
-
-const Recruitment=()=>{
+import  { useEffect } from 'react';
+const RecruitmentService=()=>{
+   useEffect(() => {
+    document.title = "Recruitment | Yashwi Counsulting";
+  }, []);
     return(
         <>
         <div id="Home4">
@@ -44,4 +47,4 @@ Looking for a job or finding the perfect candidate can be a time-consuming and d
      </div>   </>
     )
 }
-export default Recruitment;
+export default RecruitmentService;

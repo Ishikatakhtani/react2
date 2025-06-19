@@ -1,7 +1,11 @@
 import BacktoTop from "./BacktoTop";
-
+import  { useEffect } from 'react';
 const Career=()=>{
+   useEffect(() => {
+    document.title = "Career | Yashwi Counsulting";
+  }, []);
     return(
+      
         <>
        <div><img src="https://media.licdn.com/dms/image/v2/C5612AQGubjPReSyxGg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1520136237835?e=2147483647&v=beta&t=acl7kscmu4-czBXW4gLuopZdjXSZ8-tdEzcPWvPTjSU"
         id="i4" alt="" />
@@ -56,7 +60,7 @@ We are always searching for talented and dedicated individuals for both permanen
         </div>
 
         <div class="form-footer">
-          <button type="submit" class="btn-send">Send</button>
+          <button type="submit" class="btn-send">SEND</button>
         </div>
       </form>
     </div>

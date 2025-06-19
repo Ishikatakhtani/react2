@@ -7,7 +7,9 @@ import { Link } from 'react-router-dom';
 
 const Training = () => {
    const navigate = useNavigate();
-
+ useEffect(() => {
+    document.title = "Training| Yashwi Counsulting";
+  }, []);
   const handleClick = () => {
     navigate("/contact"); // or whatever your route is
   };
@@ -47,7 +49,7 @@ const Training = () => {
               textAlign: "center",
             }}
           >
-            <div className="cursor typewriter-animation" style={{color:"black"}}>
+            <div className="cursor2 typewriter2-animation2" style={{color:"black"}}>
             Corporate Trainings <br />
             Upskilling. Reskilling
             </div>
@@ -74,7 +76,7 @@ const Training = () => {
           data-aos-easing="ease-out-cubic"
           data-aos-duration="2000"
         >
-          <div className="cursor typewriter-animation" style={{color:"black"}}>
+          <div className="cursor2 typewriter2-animation2" style={{color:"black"}}>
             <p
               id="h3"
               style={{

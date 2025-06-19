@@ -22,7 +22,7 @@ const Header=()=>{
             <Nav.Link as={Link} to="/Home" style={{color:"white",fontFamily:"Georgia",fontSize:"18px"}}>Home</Nav.Link>
              <Nav.Link as={Link} to="/Consulting" style={{color:"white",fontFamily:"Georgia",fontSize:"18px"}}>Consulting</Nav.Link>
               <Nav.Link as={Link} to="/Training" style={{color:"white",fontFamily:"Georgia",fontSize:"18px"}}>Training</Nav.Link>
-               <Nav.Link as={Link} to="/Recruitment" style={{color:"white",fontFamily:"Georgia",fontSize:"18px"}}>Recruitment Services</Nav.Link>
+               <Nav.Link as={Link} to="/RecruitmentService" style={{color:"white",fontFamily:"Georgia",fontSize:"18px"}}>Recruitment Services</Nav.Link>
   <Nav.Link as={Link} to="/Career" style={{color:"white",fontFamily:"Georgia",fontSize:"18px"}}>Career</Nav.Link>
  <Nav.Link as={Link} to="/ContactUs" style={{color:"white",fontFamily:"Georgia",fontSize:"18px"}}>Contact Us</Nav.Link>
 

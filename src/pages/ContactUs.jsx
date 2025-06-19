@@ -1,6 +1,9 @@
 import BacktoTop from "./BacktoTop";
-
+import  { useEffect } from 'react';
 const  ContactUs=()=>{
+   useEffect(() => {
+    document.title = "Contact Us | Yashwi Counsulting";
+  }, []);
     return(
         <>
 
@@ -19,7 +22,7 @@ const  ContactUs=()=>{
 
         
 
-        <button type="submit" id="b4">Send</button>
+        <button type="submit" id="b4">SEND</button>
       </form>
     </div>
     <BacktoTop/>
