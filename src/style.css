@@ -27,19 +27,17 @@
   font-size: 24px;
   color: white;
   width: 0;
-  border-right: 2px solid white; /* cursor line */
+  border-right: 2px solid white; 
   animation:
-    typing 3s steps(30, end) forwards,  /* type text */
-    remove-cursor 0s 3s forwards;       /* remove cursor after typing */
+    typing 3s steps(30, end) forwards,  
+    remove-cursor 0s 3s forwards;      
 }
 
-/* Typewriter effect */
 @keyframes typing {
   from { width: 0; }
-  to { width: 26ch; } /* adjust based on character count */
+  to { width: 26ch; } 
 }
 
-/* Instantly remove cursor after typing is done */
 @keyframes remove-cursor {
   to {
     border-right: none;
@@ -52,8 +50,8 @@
   border-right: 2px solid white;
   width: 0;
   animation:
-   typing 3s steps(30, end) forwards,  /* type text */
-    remove-cursor 0s 3s forwards;       /* remove cursor after typing */
+   typing 3s steps(30, end) forwards,  
+    remove-cursor 0s 3s forwards;      
 }
 @keyframes typewriter2 {
   from { width: 0; }

@@ -11,11 +11,11 @@ const Training = () => {
     document.title = "Training|  Yashika Counsulting Services";
   }, []);
   const handleClick = () => {
-    navigate("/contact"); // or whatever your route is
+    navigate("/contact"); 
   };
   useEffect(() => {
     AOS.init({ duration: 2000, once: true });
-    AOS.refresh(); // Reinitializes animations on mount
+    AOS.refresh(); 
   }, []);
     return (
     
