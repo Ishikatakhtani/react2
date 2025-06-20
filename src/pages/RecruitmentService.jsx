@@ -2,7 +2,7 @@ import BacktoTop from "./BacktoTop";
 import  { useEffect } from 'react';
 const RecruitmentService=()=>{
    useEffect(() => {
-    document.title = "Recruitment | Yashwi Counsulting";
+    document.title = "Recruitment Service |  Yashika Counsulting";
   }, []);
     return(
         <>

@@ -2,7 +2,7 @@ import BacktoTop from "./BacktoTop";
 import  { useEffect } from 'react';
 const Career=()=>{
    useEffect(() => {
-    document.title = "Career | Yashwi Counsulting";
+    document.title = "Career |  Yashika Counsulting";
   }, []);
     return(
       

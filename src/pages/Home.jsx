@@ -8,13 +8,13 @@ const Home=()=>{
       AOS.init({ duration: 1000 }); 
     }, []);
      useEffect(() => {
-    document.title = "Home | Yashwi Counsulting";
+    document.title = "Home |  Yashika Counsulting";
   }, []);
     return(
         <>
        <div id="Home">
             <div id="i1">
-  <div id="i2"><p class="cursor typewriter-animation">Yashvi Consulting Services</p></div> 
+  <div id="i2"><p class="cursor typewriter-animation"> Yashika Consulting Services</p></div> 
   </div>
 
   <div id="Home1">

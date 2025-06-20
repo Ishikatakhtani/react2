@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 const Training = () => {
    const navigate = useNavigate();
  useEffect(() => {
-    document.title = "Training| Yashwi Counsulting";
+    document.title = "Training|  Yashika Counsulting";
   }, []);
   const handleClick = () => {
     navigate("/contact"); // or whatever your route is
