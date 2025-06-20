@@ -13,12 +13,12 @@ const  ContactUs=()=>{
 
     <div class="contact-form-area">
       <h2>Get in Touch</h2>
-      <form action="#" method="post">
-        <input type="text" name="name" placeholder="Name" required />
-        <input type="email" name="email" placeholder="Email" required />
-        <input type="tel" name="phone" placeholder="Enter your phone number" />
-        <input type="text" name="subject" placeholder="Subject" />
-        <textarea name="message" placeholder="Type your message here..." rows="5"></textarea>
+      <form action="#" method="post" >
+        <input type="text" name="name" placeholder="Name" required id="f1" />
+        <input type="email" name="email" placeholder="Email" required id="f1" />
+        <input type="tel" name="phone" placeholder="Enter your phone number" id="f1" required />
+        <input type="text" name="subject" placeholder="Subject"  required id="f1" />
+        <textarea name="message" placeholder="Type your message here..." id="f1" required rows="5"></textarea>
 
         
 

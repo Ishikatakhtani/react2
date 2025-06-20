@@ -37,16 +37,16 @@ We are always searching for talented and dedicated individuals for both permanen
           </label>
           <div class="phone-row">
             <label>
-              Code<br />
+             Country  Code<br />
               <select name="country_code">
-                <option>IN +91</option>
-                <option>US +1</option>
+                <option>IN  +91 </option>
+                <option>US  +1 </option>
                
               </select>
             </label>
             <label>
               Phone<br />
-              <input type="tel" name="phone" />
+              <input type="tel" name="phone"  required />
             </label>
           </div>
         </div>

@@ -40,33 +40,29 @@ const Training = () => {
           data-aos-easing="ease-out-cubic"
           data-aos-duration="2000"
         >
-          <p
-            id="h3"
-            style={{
-              fontFamily: "'Georgia', serif",
-              fontSize: "40px",
-              fontWeight: "lighter",
-              textAlign: "center",
-            }}
-          >
-            <div className="cursor2 typewriter2-animation2" style={{color:"black"}}>
-            Corporate Trainings <br />
-            Upskilling. Reskilling
-            </div>
-          </p>
+          <div className="cursor2 typewriter2-animation2" style={{color:"black"}}>
+            <p
+              id="h3"
+              style={{
+                fontFamily: "'Georgia', serif",
+                fontSize: "40px",
+                fontWeight: "lighter",
+                textAlign: "center",
+              }}
+            >
+             Individual Trainings <br />
+Upskilling. Reskilling
+            </p>
+          </div>
           <p id="h8">
-            To stay ahead of technology shift and up-skill your workforce on the
-            latest technologies. We help you to upskill your workforce to align
-            with your technology roadmap. Our services include tailor-made IT
-            training solutions for corporate clients and organized batches for
-            individuals, all with a strong emphasis on delivering high-quality
-            training sessions.
+           In the ever-evolving IT industry, staying up-to-date with emerging technologies is crucial for personal and professional growth. At our organization, we provide support to individuals seeking to upskill and stay relevant in the dynamic demands of the IT landscape. Let us help you stay ahead of the curve and achieve your goals.
           </p>
           <br />
-         <Link to="/ContactUs">
+          <Link to="/ContactUs">
       <button id="b5">Get In Touch</button>
     </Link>
         </div>
+
       </div>
 
       <div id="Home3">
