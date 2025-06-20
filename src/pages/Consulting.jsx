@@ -8,7 +8,7 @@ const Consulting=()=>{
       AOS.init({ duration: 1000 }); 
     }, []);
      useEffect(() => {
-    document.title = "Consulting |  Yashika Counsulting";
+    document.title = "Consulting |  Yashika Counsulting Services";
   }, []);
     return(
        
