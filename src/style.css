@@ -19,54 +19,42 @@
   align-items: center;  
 }
 
-
-.cursor {
-  width: 24em;
-  border-right: 2px solid rgba(255,255,255,.75);
-  font-size: 30px;
-  font-family: 'Anonymous Pro', monospace;
+.typewriter {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: 'Courier New', monospace;
+  font-size: 24px;
   color: white;
-  text-align: center;
-  white-space: nowrap;
-  overflow: hidden;
-}
-
-.cursor2 {
-  width: 24em;
-  border-right: 2px solid rgba(255,255,255,.75);
-  font-size: 30px;
-  font-family: 'Anonymous Pro', monospace;
-  color: white;
-  text-align: center;
-  white-space: nowrap;
-  overflow: hidden;
-}
-
-.typewriter-animation {
-  overflow: hidden;
-  white-space: nowrap;
-  /* border-right: 2px solid; */
   width: 0;
+  border-right: 2px solid white; /* cursor line */
   animation:
-    typewriter 3s steps(30) 1s 1 normal both,
-    blinkingCursor 500ms steps(1) infinite normal;
+    typing 3s steps(30, end) forwards,  /* type text */
+    remove-cursor 0s 3s forwards;       /* remove cursor after typing */
 }
 
-.typewriter2-animation2 {
+/* Typewriter effect */
+@keyframes typing {
+  from { width: 0; }
+  to { width: 26ch; } /* adjust based on character count */
+}
+
+/* Instantly remove cursor after typing is done */
+@keyframes remove-cursor {
+  to {
+    border-right: none;
+  }
+}
+
+.typewriter2{
   overflow: hidden;
   white-space: nowrap;
   border-right: 2px solid white;
   width: 0;
   animation:
-    typewriter2 2s steps(20) 0.5s 1 normal both,
-    blinkingCursor 500ms steps(1) infinite normal;
+   typing 3s steps(30, end) forwards,  /* type text */
+    remove-cursor 0s 3s forwards;       /* remove cursor after typing */
 }
-
-@keyframes typewriter {
-  from { width: 0; }
-  to { width: 100%; }
-}
-
 @keyframes typewriter2 {
   from { width: 0; }
   to { width: 100%; }
@@ -75,9 +63,17 @@
 @keyframes blinkingCursor {
   from { border-right-color: rgba(255, 255, 255, 0.75); }
   to { border-right-color: transparent; }
+} 
+.typewriter2 {
+  width: 24em;
+  border-right: 2px solid rgba(255,255,255,.75);
+  font-size: 30px;
+  font-family: 'Anonymous Pro', monospace;
+  color: white;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
 }
-
-
 #Home1{
     background-color: black;
     display: flex;
@@ -122,8 +118,8 @@
     flex-direction: column;
 }
 #h8{
-   padding-left: 10%;
-   padding-right: 10%;
+   padding-left: 12%;
+   padding-right: 8%;
 }
 
 #h3{

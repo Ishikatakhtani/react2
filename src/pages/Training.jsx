@@ -40,7 +40,7 @@ const Training = () => {
           data-aos-easing="ease-out-cubic"
           data-aos-duration="2000"
         >
-          <div className="cursor2 typewriter2-animation2" style={{color:"black"}}>
+          <div className=" typewriter2" style={{color:"black"}}>
             <p
               id="h3"
               style={{
@@ -72,7 +72,7 @@ Upskilling. Reskilling
           data-aos-easing="ease-out-cubic"
           data-aos-duration="2000"
         >
-          <div className="cursor2 typewriter2-animation2" style={{color:"black"}}>
+          <div className=" typewriter2" style={{color:"black"}}>
             <p
               id="h3"
               style={{
@@ -82,16 +82,12 @@ Upskilling. Reskilling
                 textAlign: "center",
               }}
             >
-              Individual Trainings <br />
-              Upskilling. Reskilling
+              Corporate Trainings <br />
+Upskilling. Reskilling
             </p>
           </div>
           <p id="h8">
-            In the ever-evolving IT industry, staying up-to-date with emerging
-            technologies is crucial for personal and professional growth. At our
-            organization, we provide support to individuals seeking to upskill
-            and stay relevant in the dynamic demands of the IT landscape. Let us
-            help you stay ahead of the curve and achieve your goals.
+          To stay ahead of technology shift and up-skill your workforce on the latest technologies. We help you to upskill your workforce to align with your technology roadmap. Our services include tailor-made IT training solutions for corporate clients and organized batches for individuals, all with a strong emphasis on delivering high-quality training sessions.
           </p>
           <br />
           <Link to="/ContactUs">

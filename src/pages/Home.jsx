@@ -14,7 +14,7 @@ const Home=()=>{
         <>
        <div id="Home">
             <div id="i1">
-  <div id="i2"><p class="cursor typewriter-animation"> Yashika Consulting Services</p></div> 
+  <div id="i2"><p  class="typewriter"> Yashika Consulting Services</p></div> 
   </div>
 
   <div id="Home1">
