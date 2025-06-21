@@ -1,9 +1,30 @@
 import BacktoTop from "./BacktoTop";
-import  { useEffect } from 'react';
+import  { useEffect,useRef } from 'react';
+import intlTelInput from "intl-tel-input";
+import "intl-tel-input/build/css/intlTelInput.css";
+import "intl-tel-input/build/js/utils.js";
 const Career=()=>{
-   useEffect(() => {
-    document.title = "Career |  Yashika Counsulting Services";
+   const inputRef = useRef(null);
+  const itiRef = useRef(null); // This stores the intlTelInput instance
+
+  useEffect(() => {
+    document.title = "Career | Yashika Counsulting Services";
+
+    if (inputRef.current) {
+      itiRef.current = intlTelInput(inputRef.current, {
+        initialCountry: "in",
+        separateDialCode: true,
+        utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.19/js/utils.js",
+      });
+    }
+
+    return () => {
+      if (itiRef.current) {
+        itiRef.current.destroy();
+      }
+    };
   }, []);
+
     return(
       
         <>
@@ -36,17 +57,18 @@ We are always searching for talented and dedicated individuals for both permanen
             <input type="email" name="email" required />
           </label>
           <div class="phone-row">
-            <label>
+            {/* <label>
              Country  Code<br />
               <select name="country_code">
                 <option>IN  +91 </option>
                 <option>US  +1 </option>
                
               </select>
-            </label>
+            </label> */}
+            
             <label>
               Phone<br />
-              <input type="tel" name="phone"  required />
+              <input type="tel" name="phone"  ref={inputRef} required />
             </label>
           </div>
         </div>
@@ -67,6 +89,7 @@ We are always searching for talented and dedicated individuals for both permanen
   </div>
   <BacktoTop/>
         </div>
+       
         </>
     )
 }
