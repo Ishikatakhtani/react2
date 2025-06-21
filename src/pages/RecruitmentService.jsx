@@ -10,8 +10,9 @@ const RecruitmentService=()=>{
       <section class="recruitment-section">
     <div class="content-wrapper">
       <h1>Our Professional Services for Your <br /> Recruitment Needs</h1>
-      <p>
-        Looking for your dream job or exceptional talent for your organization? Look no further than our top-notch recruitment agency. We are committed to aiding both job seekers and employers in discovering their ideal matches, ensuring a seamless, efficient, and rewarding process. Our dedication to excellence sets us apart, making us the preferred choice for all your recruitment needs.
+      <p style={{textAlign:"justify"}}>
+      Looking for your dream job or exceptional talent for your organization? Look no further than our top-notch recruitment agency. We are committed to aiding both job seekers and employers in discovering their ideal matches, ensuring a seamless, efficient, and rewarding process. Our dedication to excellence sets us apart, making us the preferred choice for all your recruitment needs.
+
       </p>
     </div>
   </section>
