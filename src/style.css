@@ -473,6 +473,21 @@ textarea {
     width: 100%;
   }
 
+  #b5{
+  background-color: transparent;
+
+}
+
+#b5:hover{
+  background-color: black;
+  color: white;
+
+}
+
+#Home1 img{
+  width: 100%;
+
+}
   #Home1, #Home3, #Home4 {
     flex-direction: column; 
     padding: 10px;
