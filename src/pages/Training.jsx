@@ -59,7 +59,7 @@ Upskilling. Reskilling
           </p>
           <br />
           <Link to="/ContactUs">
-      <button id="b5">Get In Touch</button>
+      <button id="b5" style={{color:"black"}}>Get In Touch</button>
     </Link>
         </div>
 
