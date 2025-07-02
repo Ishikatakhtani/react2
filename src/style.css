@@ -472,16 +472,12 @@ textarea {
     width: 100%;
   }
 
-  #b5{
+  #b5:hover{
   background-color: transparent;
 
 }
 
-#b5:hover{
-  background-color: black;
-  color: white;
 
-}
 
 #Home1 img{
   width: 100%;
@@ -491,7 +487,7 @@ textarea {
 .mentorship {
     padding: 20px 20px;
     gap: 20px;
-    grid-template-columns: 1fr; /* stack items vertically */
+    grid-template-columns: 1fr; 
   }
 
   #Home1, #Home3, #Home4 {
