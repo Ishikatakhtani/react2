@@ -488,15 +488,11 @@ textarea {
 
 }
 
-
 .mentorship {
-  display: grid;
-  grid-template-columns: repeat(auto-fit);
-  gap: 40px;
-  padding: 60px 80px;
-  text-align: center;
-  font-family: 'Open Sans', sans-serif;
-} 
+    padding: 20px 20px;
+    gap: 20px;
+    grid-template-columns: 1fr; /* stack items vertically */
+  }
 
   #Home1, #Home3, #Home4 {
     flex-direction: column; 
