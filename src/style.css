@@ -461,6 +461,10 @@ textarea {
 
 
 @media screen and (max-width: 480px) {
+/* change */
+  .footer{
+    padding-top: 1%;
+  }
   #i2 {
     height: 250px; 
     border-radius: 0;
