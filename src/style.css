@@ -465,6 +465,11 @@ textarea {
   .footer{
     padding-top: 1%;
   }
+  .btn-send {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
   #i2 {
     height: 250px; 
     border-radius: 0;
